@@ -35,3 +35,7 @@ helper.txt
 *.iml
 .vscode
 .idea
+
+# Need Cargo.lock for nixos build
+.cargo
+!Cargo.lock
